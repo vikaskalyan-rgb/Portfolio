@@ -29,7 +29,7 @@ const about = () => {
           <div className="grid w-full grid-cols-6 gap-8 xl:gap-12">
             <div className="col-span-3 flex flex-col items-start justify-start xl:order-2 xl:col-span-8">
               <h2 className="mb-2 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Biography
+                Software engineer
               </h2>
               {aboutData.map((item, index) => (
                 <p className="font-medium my-2" key={index}>
