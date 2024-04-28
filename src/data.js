@@ -4,7 +4,7 @@ import javaScript from "../public/images/skills/javascript.png";
 import reactImg from "../public/images/skills/react.png";
 import java from "../public/images/skills/java.png";
 import cpp from "../public/images/skills/cpp.png";
-import JUnit from "../public/images/skills/JUnit.png";
+import JUnit from "../public/images/skills/Junit.png";
 import Jenkins from "../public/images/skills/Jenkins.png";
 import git from "../public/images/skills/git.png";
 import springboot from "../public/images/skills/springboot.png";
