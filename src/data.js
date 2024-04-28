@@ -114,13 +114,14 @@ export const skills = [
     image: git,
   },
   {
-    name: "Figma",
-    image: Figma,
-  },
-  {
     name: "Jenkins",
     image: Jenkins,
   },
+  {
+    name: "Figma",
+    image: Figma,
+  },
+  
 ];
 
 export const projectsData = [
@@ -141,6 +142,6 @@ export const projectsData = [
     image: dogwalk,
     isFeatured: false,
     summary:
-      "Fureva: The ultimate solution for pet owners seeking reliable and caring caretakers for their furry friends during their absence. Our app not only provides peace of mind for pet owners but also creates a rewarding opportunity for passionate individuals to earn income while doing what they love.",
+      "Fureva: The ultimate solution for pet owners seeking reliable and caring caretakers for their furry friends during their absence. Our app not only provides peace of mind for pet owners but also creates a rewarding opportunity for passionate individuals to earn income.",
   },
 ];

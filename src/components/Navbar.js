@@ -7,8 +7,9 @@ import {
   LinkedInIcon,
   MoonIcon,
   SunIcon,
-  InstagramIcon,
-  BehanceIcon
+  BehanceIcon,
+  SpotifyIcon,
+  InstagramIcon
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -124,6 +125,25 @@ const Navbar = () => {
           >
             <LinkedInIcon />
           </motion.a>
+          <motion.a
+            href="https://open.spotify.com/show/0eJbyH01h9a98cVUowp0cA?si=408a91aef18f45d3"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <SpotifyIcon />
+          </motion.a>
+
+          <motion.a
+            href="https://www.instagram.com/__vikstagram/?igsh=MXY3bjYxcm1mY3o2Mw%3D%3D"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <InstagramIcon/>
+          </motion.a>
 
           <button
             className={`ml-3 flex items-center justify-center rounded-full p-1 
@@ -187,6 +207,26 @@ const Navbar = () => {
             className="w-6 mx-3"
           >
             <LinkedInIcon />
+          </motion.a>
+
+          <motion.a
+            href="https://open.spotify.com/show/0eJbyH01h9a98cVUowp0cA?si=408a91aef18f45d3"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <SpotifyIcon />
+          </motion.a>
+
+          <motion.a
+            href="https://www.instagram.com/__vikstagram/?igsh=MXY3bjYxcm1mY3o2Mw%3D%3D"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <InstagramIcon/>
           </motion.a>
             <button
               className={`ml-3 flex items-center justify-center rounded-full p-1 sm:mx-1
