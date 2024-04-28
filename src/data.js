@@ -11,6 +11,7 @@ import springboot from "../public/images/skills/springboot.png";
 import Figma from "../public/images/skills/Figma.png";
 import Rest from "../public/images/skills/Rest.png";
 import chaos from "../public/images/projects/chaos.jpeg";
+import dogwalk from "../public/images/projects/DogWalk.jpg";
 export const mail = "vikaskalyan1811@gmail.com";
 export const aboutData = [
   "Experienced Backend developer with 2+ years of hands-on experience in building and integrating RESTful API services and front-end components in Guardian Life. Proficient in developing scalable web applications, optimizing code, and ensuring seamless integration between the backend and frontend layers. Adept at collaborating with cross-functional teams to deliver user-centric solutions.",
@@ -126,11 +127,20 @@ export const projectsData = [
   
   {
     title: "Chaos",
-    demo_link: "#",
+    demo_link: "https://github.com/vikaskalyan-rgb/Chaos",
     github_link: "https://github.com/vikaskalyan-rgb/Chaos",
     image: chaos,
     isFeatured: false,
     summary:
-      "Chaos: Python and OpenCV computer vision software for Windows OS control using finger gestures, eyeball tracking, and a voice assistant. Enhances accessibility for disabled users.",
+      "Chaos: Python and OpenCV computer vision software for Windows OS control using finger gestures, eyeball tracking, and a voice assistant. Enhances accessibility for disabled users.This software helps the blind and disabled people to use windows OS in ease.",
+  },
+  {
+    title: "Fureva",
+    demo_link: "https://www.behance.net/gallery/186545367/Fureva-CaseStudy",
+    github_link: "https://www.behance.net/gallery/186545367/Fureva-CaseStudy",
+    image: dogwalk,
+    isFeatured: false,
+    summary:
+      "Fureva: The ultimate solution for pet owners seeking reliable and caring caretakers for their furry friends during their absence. Our app not only provides peace of mind for pet owners but also creates a rewarding opportunity for passionate individuals to earn income while doing what they love.",
   },
 ];

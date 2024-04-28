@@ -3,13 +3,12 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
   MoonIcon,
-  PinterestIcon,
   SunIcon,
-  TwitterIcon,
+  InstagramIcon,
+  BehanceIcon
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -25,6 +24,7 @@ const CustomLink = ({ href, title, className = "" }) => {
           router.asPath === href ? "w-full" : "w-0"
         }`}
       >
+
         &nbsp;
       </span>
     </Link>
@@ -94,15 +94,7 @@ const Navbar = () => {
           {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a
-            href=" https://x.com/VikaSKalyan1102?t=ctxsPj5V7Fe8HbFkmVZn-A&s=08 "
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mr-3"
-          >
-            <TwitterIcon />
-          </motion.a>
+          
           <motion.a
             href="https://github.com/vikaskalyan-rgb"
             target={"_blank"}
@@ -112,6 +104,17 @@ const Navbar = () => {
           >
             <GithubIcon />
           </motion.a>
+
+          <motion.a
+            href="https://www.behance.net/vikaskalyan"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <BehanceIcon />
+          </motion.a>
+        
           <motion.a
             href="https://www.linkedin.com/in/vikaskalyan/"
             target={"_blank"}
@@ -120,6 +123,15 @@ const Navbar = () => {
             className="w-6 mx-3"
           >
             <LinkedInIcon />
+          </motion.a>&nbsp;&nbsp;
+          <motion.a
+            href=" https://www.instagram.com/__vikstagram/?igsh=MXY3bjYxcm1mY3o2Mw%3D%3D "
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mr-3"
+          >
+            <InstagramIcon />
           </motion.a>
 
           <button

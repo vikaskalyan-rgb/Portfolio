@@ -1,5 +1,5 @@
 import AnimatedText from "@/components/AnimatedText";
-import { GithubIcon } from "@/components/Icons";
+import { BehanceIcon, GithubIcon } from "@/components/Icons";
 import Link from "next/link";
 import React from "react";
 import Head from "next/head";
@@ -66,7 +66,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         </p>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
-            <GithubIcon />
+            <GithubIcon /> 
           </Link>
           <LinkWrapper
             href={link}
@@ -123,7 +123,7 @@ const Project = ({ title, type, img, link, github, summary }) => {
             className="text-lg font-semibold underline md:text-base"
           />
           <Link href={github} target="_blank" className="w-8 md:w-6">
-            <GithubIcon />
+          <GithubIcon /> 
           </Link>
         </div>
       </div>
