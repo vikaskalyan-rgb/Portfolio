@@ -13,7 +13,7 @@ import Rest from "../public/images/skills/Rest.png";
 import chaos from "../public/images/projects/chaos.jpeg";
 export const mail = "vikaskalyan1811@gmail.com";
 export const aboutData = [
-  " Experienced Spring Boot and ReactJS developer with 2 years of hands-on experience in building and integrating RESTful API services andfront-end components. Proficient in developing scalable web applications, optimizing code, and ensuring seamless integration between the backend and frontend layers. Adept at collaborating with cross-functional teams to deliver user-centric solutions.",
+  "Experienced Spring Boot and ReactJS developer with 2+ years of hands-on experience in building and integrating RESTful API services andfront-end components. Proficient in developing scalable web applications, optimizing code, and ensuring seamless integration between the backend and frontend layers. Adept at collaborating with cross-functional teams to deliver user-centric solutions.",
   "Strong understanding of both backend and frontend development principles. Demonstrated ability to deliver high-quality code and meet project deadlines. Experienced in building and integrating RESTful APIs. Committed to continuous learning and staying updated with the latest technologies. Proven track record of successful project delivery and teamwork."
 ];
 export const experience = [
