@@ -18,7 +18,8 @@ export const GithubIcon = ({ className, ...rest }) => (
 );
 
 export const BehanceIcon = ({ className, ...rest }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em"
+  <svg xmlns="http://www.w3.org/2000/svg" 
+  width="1em"
   height="1em"
   viewBox="0 0 576 512"
   {...rest}
@@ -29,7 +30,8 @@ export const BehanceIcon = ({ className, ...rest }) => (
 );
 
 export const InstagramIcon = ({ className, ...rest }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em"
+  <svg xmlns="http://www.w3.org/2000/svg" 
+  width="1em"
   height="1em"
   viewBox="0 0 448 512"
   {...rest}
@@ -40,7 +42,8 @@ export const InstagramIcon = ({ className, ...rest }) => (
 );
 // #0A66C2
 export const LinkedInIcon = ({ className, ...rest }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em"
+  <svg xmlns="http://www.w3.org/2000/svg" 
+  width="1em"
   height="1em"
   viewBox="0 0 448 512"
   {...rest}

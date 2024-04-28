@@ -123,15 +123,6 @@ const Navbar = () => {
             className="w-6 mx-3"
           >
             <LinkedInIcon />
-          </motion.a>&nbsp;&nbsp;
-          <motion.a
-            href=" https://www.instagram.com/__vikstagram/?igsh=MXY3bjYxcm1mY3o2Mw%3D%3D "
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mr-3"
-          >
-            <InstagramIcon />
           </motion.a>
 
           <button
@@ -168,25 +159,35 @@ const Navbar = () => {
             /> */}
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
-            <motion.a
-              href="https://github.com/vikaskalyan-rgb"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
-            >
-              <GithubIcon />
-            </motion.a>
-            <motion.a
-              href="https://www.linkedin.com/in/vikaskalyan/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1"
-            >
-              <LinkedInIcon />
-            </motion.a>
+          <motion.a
+            href="https://github.com/vikaskalyan-rgb"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3 "
+          >
+            <GithubIcon />
+          </motion.a>
 
+          <motion.a
+            href="https://www.behance.net/vikaskalyan"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <BehanceIcon />
+          </motion.a>
+        
+          <motion.a
+            href="https://www.linkedin.com/in/vikaskalyan/"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <LinkedInIcon />
+          </motion.a>
             <button
               className={`ml-3 flex items-center justify-center rounded-full p-1 sm:mx-1
           ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
