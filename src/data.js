@@ -131,7 +131,7 @@ export const projectsData = [
     demo_link: "https://github.com/vikaskalyan-rgb/Chaos",
     github_link: "https://github.com/vikaskalyan-rgb/Chaos",
     image: chaos,
-    isFeatured: false,
+    isFeatured: true,
     summary:
       "Chaos: Python and OpenCV computer vision software for Windows OS control using finger gestures, eyeball tracking, and a voice assistant. Enhances accessibility for disabled users.This software helps the blind and disabled people to use windows OS in ease.",
   },
