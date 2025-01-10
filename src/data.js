@@ -14,15 +14,30 @@ import chaos from "../public/images/projects/chaos.jpeg";
 import dogwalk from "../public/images/projects/DogWalk.jpg";
 export const mail = "vikaskalyan1811@gmail.com";
 export const aboutData = [
-  "Experienced Backend developer with 2+ years of hands-on experience in building and integrating RESTful API services and front-end components in Guardian Life. Proficient in developing scalable web applications, optimizing code, and ensuring seamless integration between the backend and frontend layers. Adept at collaborating with cross-functional teams to deliver user-centric solutions.",
+  "Experienced Backend developer with 3+ years of hands-on experience in building and integrating RESTful API services and front-end components in Guardian Life. Proficient in developing scalable web applications, optimizing code, and ensuring seamless integration between the backend and frontend layers. Adept at collaborating with cross-functional teams to deliver user-centric solutions.",
   "Strong understanding of both backend and frontend development principles. Demonstrated ability to deliver high-quality code and meet project deadlines. Experienced in building and integrating RESTful APIs. Committed to continuous learning and staying updated with the latest technologies. Proven track record of successful project delivery and teamwork."
 ];
 export const experience = [
   {
     id: 1,
+    companyName: "Comcast",
+    role: "Software Development Engineer 2",
+    period: "June 2024 - Present",
+    address: "Chennai, TN",
+    points: [
+      "Designed and developed OpenAPIs for the Freewheel MRM application, enabling external approval and QC workflows for Partner Tag Creatives using Spring Boot and MYSQL.",
+      "Extended the functionality of the existing Programmatic Creative API to support listing, retrieving and updating Partner Tag Creatives, tailored to meet specific business requirements.",
+      "Implemented secure and scalable backend services using spring boot, ensuring seamless API integration for external systems and publishers.",
+      "Developed and executed comprehensive JUnit test cases to validate API endpoints, enhancing reliability and performance of the system.",
+      "Utilized Postman for testing and documenting APIs, streamlining the development process and ensuring efficient communication with external stakeholders.",
+      "Contributed to the optimization of API response times and data handling, ensuring efficient processing of marketplace orders at scale"
+    ],
+  },
+  {
+    id: 2,
     companyName: "Guardian Life",
     role: "Engineer",
-    period: "Jan 2024 - Present",
+    period: "Jan 2024 - June 2024",
     address: "Chennai, TN",
     points: [
       "Developed API functionalities for accurate customer validation and retrieving client information.",
@@ -34,7 +49,7 @@ export const experience = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     companyName: "Guardian Life",
     role: "Graduate Engineer",
     period: "Sep 2023 - Dec 2023",
@@ -47,7 +62,7 @@ export const experience = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     companyName: "Guardian Life",
     role: "Graduate Engineer Trainee",
     period: "April 2022 - Aug 2023",
@@ -60,7 +75,7 @@ export const experience = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     companyName: "Ernst & Young",
     role: "Summer Intern",
     period: "Sept 2021 - Nov 2021",
