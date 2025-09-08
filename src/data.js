@@ -25,57 +25,31 @@ export const experience = [
     period: "June 2024 - Present",
     address: "Chennai, TN",
     points: [
-      "Designed and developed OpenAPIs for the Freewheel MRM application, enabling external approval and QC workflows for Partner Tag Creatives using Spring Boot and MYSQL.",
-      "Extended the functionality of the existing Programmatic Creative API to support listing, retrieving and updating Partner Tag Creatives, tailored to meet specific business requirements.",
       "Implemented secure and scalable backend services using spring boot, ensuring seamless API integration for external systems and publishers.",
-      "Developed and executed comprehensive JUnit test cases to validate API endpoints, enhancing reliability and performance of the system.",
-      "Utilized Postman for testing and documenting APIs, streamlining the development process and ensuring efficient communication with external stakeholders.",
-      "Contributed to the optimization of API response times and data handling, ensuring efficient processing of marketplace orders at scale"
+      "Migrated core VAST detection logic from Creative Service to Creative Detector, establishing a single source of truth and reducing cross-service dependency.",
+      "Enhanced Creative Processor to seamlessly integrate with Creative Detector while retaining legacy service calls for controlled rollout.",
+      "Implemented a configuration-driven fallback mechanism enabling zero-downtime rollback to Creative Service in case of detector failures, ensuring production stability",
+      "Designed and developed OpenAPIs for the Freewheel MRM application, enabling external approval and workflows for Partner Tag Creatives using Spring Boot and MYSQL.",
+      "Extended the functionality of the existing Programmatic Creative API to support listing, retrieving and updating Partner Tag Creatives, tailored to meet specific business requirements."
     ],
   },
   {
     id: 2,
     companyName: "Guardian Life",
     role: "Engineer",
-    period: "Jan 2024 - June 2024",
+    period: "April 2022 - June 2024",
     address: "Chennai, TN",
     points: [
       "Developed API functionalities for accurate customer validation and retrieving client information.",
       "Enhanced compatibility by refactoring code from Dot Net to Java, ensuring efficient customer verification and data retrieval.",
-      "Implemented secure user authentication for the broker-security portal and facilitated integration with Employee Navigator for group management.",
       "Implemented API calls from client to server and then from server to backend java application to retrieve and update data based on user actions, ensuring real-time synchronization.",
-      "Orchestrated frontend-backend communication to synchronize data changes in real-time via API calls.",
-      "Enabled brokers to efficiently link and unlink groups, ensuring seamless interaction between frontend and systems."
+      "Streamlined file reprocessing with Amazon s3 integration, facilitating efficient backend interaction via API calls",
+      "Developed the backend Java API for reprocessing the file in amazon S3 bucket based on user actions from the front end.",
+      "Developed a robust backend system for generating ID cards, integrating seamlessly with CDX for automated mail sending."
     ],
   },
   {
     id: 3,
-    companyName: "Guardian Life",
-    role: "Graduate Engineer",
-    period: "Sep 2023 - Dec 2023",
-    address: "Chennai, TN",
-    points: [
-      "Led the UI/UX design with Figma, creating an intuitive dashboard for leveraging the data manipulation of the batch processes.",
-      "Developed responsive components in ReactJS using glic–ui-components to visualize batch process metrics.",
-      "Streamlined file reprocessing with Amazon s3 integration, facilitating efficient backend interaction via API calls.",
-      "Developed the backend Java API for reprocessing the file in amazon S3 bucket based on user actions from the front end."
-    ],
-  },
-  {
-    id: 4,
-    companyName: "Guardian Life",
-    role: "Graduate Engineer Trainee",
-    period: "April 2022 - Aug 2023",
-    address: "Chennai, TN",
-    points: [
-      "Developed a robust backend system for generating ID cards, integrating seamlessly with CDX for automated mail sending.",
-      "Orchestrated communication with CDX ensuring smooth and timely delivery to customers while implementing rigorous testing procedures for accuracy and reliability.",
-      "Led implementation of batch processes, modifying contact preferences of customers in Customer Hub database.",
-      "Utilized Amazon S3 for efficient processing of customer lists, enhancing system reliability and scalability while improving compliance and customer experience."
-    ],
-  },
-  {
-    id: 5,
     companyName: "Ernst & Young",
     role: "Summer Intern",
     period: "Sept 2021 - Nov 2021",
